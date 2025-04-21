@@ -15,7 +15,7 @@ describe('repeatString', () => {
   test('repeats the string 0 times', () => {
     expect(repeatString('bye', 0)).toEqual('');
   });
-  test.skip('does not use the built-in String repeat method', () => {
+  test('does not use the built-in String repeat method', () => {
     /* Even though there is a built-in String repeat method,
       in this exercise specifically, we want you to practise using loops */
     jest
