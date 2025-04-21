@@ -9,7 +9,7 @@ describe('repeatString', () => {
       'hellohellohellohellohellohellohellohellohellohello'
     );
   });
-  test.skip('repeats the string 1 times', () => {
+  test('repeats the string 1 times', () => {
     expect(repeatString('hi', 1)).toEqual('hi');
   });
   test.skip('repeats the string 0 times', () => {
