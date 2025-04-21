@@ -3,6 +3,10 @@ const sumAll = function (num1, num2) {
   let firstAddend;
   let lastAddend;
 
+  if (num1 < 0 || num2 < 0) {
+    return 'ERROR';
+  }
+
   if (num1 < num2) {
     firstAddend = num1;
     lastAddend = num2;
