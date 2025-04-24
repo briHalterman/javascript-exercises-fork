@@ -14,7 +14,9 @@ const multiply = function (array) {
   return array.reduce((total, current) => total * current, 1);
 };
 
-const power = function () {};
+const power = function (a, b) {
+  return a ** b;
+};
 
 const factorial = function () {};
 
